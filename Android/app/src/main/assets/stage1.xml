@@ -1,0 +1,102 @@
+<SpaceGame>
+    <Screen>
+        <Size w = "1800" h = "1100" />
+    </Screen>
+    <GamePanel>
+        <Bg  img = "src/img/space.jpg" w = "1000" h = "666" />
+        <ActiveMap>
+
+            <ClosedArea blockSize = "80">
+                <Rectangle>
+                    <Point x ="240" y = "480"/>
+                    <Point x ="240" y = "640"/>
+                    <Point x ="400" y = "640"/>
+                    <Point x ="400" y = "480"/>
+
+                </Rectangle>
+                <Rectangle>
+                    <Point x ="400" y = "240"/>
+                    <Point x ="400" y = "880"/>
+                    <Point x ="1200" y = "880"/>
+                    <Point x ="1200" y = "240"/>
+
+                </Rectangle>
+                <Rectangle>
+                    <Point x ="1200" y = "400"/>
+                    <Point x ="1200" y = "720"/>
+                    <Point x ="1520" y = "720"/>
+                    <Point x ="1520" y = "400"/>
+
+                </Rectangle>
+                <Rectangle>
+                    <Point x ="1040" y = "880"/>
+                    <Point x ="1040" y = "1040"/>
+                    <Point x ="1200" y = "1040"/>
+                    <Point x ="1200" y = "880"/>
+
+                </Rectangle>
+            </ClosedArea>
+            <Enemy>
+                <Obj img ="src/img/enemy.png" x = "1200" y ="480" w = "80" h ="80" type = "LeftRight" speed ="3"></Obj>
+                <Obj img ="src/img/enemy.png" x = "720" y ="240" w = "80" h ="80" type = "UpDown" speed ="3"></Obj>
+                <Obj img ="src/img/enemy.png" x = "960" y ="800" w = "80" h ="80" type = "UpDown" speed ="3"></Obj>
+                <Obj img ="src/img/ghost.png" x = "560" y ="800" w = "80" h ="80" type = "UpDown" speed ="3"></Obj>
+            </Enemy>
+            <Item>
+                <Obj img ="src/img/key2.png" x = "1440" y ="480" w = "80" h ="80"></Obj>
+            </Item>
+            <Goal img ="src/img/goal.jpg" x = "1040" y ="880" w = "160" h ="160"/>
+            <Character img ="src/img/rect2.png" x = "240" y ="560" w = "80" h ="80" speed ="5"/>
+            <Tile>
+                <Obj img ="src/img/white.png" x = "1200" y ="400" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "1280" y ="480" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "1360" y ="400" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "1440" y ="480" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "1200" y ="560" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "1280" y ="640" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "1360" y ="560" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "1440" y ="640" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "1040" y ="400" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "880" y ="400" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "720" y ="400" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "400" y ="400" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "400" y ="240" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "560" y ="400" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "560" y ="240" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "720" y ="240" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "880" y ="240" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "1040" y ="240" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "1120" y ="320" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "960" y ="320" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "800" y ="320" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "640" y ="320" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "480" y ="480" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "640" y ="480" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "800" y ="480" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "960" y ="480" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "1120" y ="480" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "1040" y ="560" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "880" y ="560" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "720" y ="560" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "400" y ="720" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "560" y ="560" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "400" y ="560" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "480" y ="640" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "640" y ="640" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "800" y ="640" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "960" y ="640" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "1120" y ="640" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "1040" y ="720" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "880" y ="720" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "720" y ="720" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "560" y ="720" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "480" y ="800" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "640" y ="800" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "960" y ="800" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "800" y ="800" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "1120" y ="800" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/white.png" x = "480" y ="320" w = "80" h ="80"></Obj>
+            </Tile>
+        </ActiveMap>
+    </GamePanel>
+</SpaceGame>

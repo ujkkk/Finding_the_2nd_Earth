@@ -1,0 +1,151 @@
+<SpaceGame>
+<Screen>
+<Size w = "900" h = "600" />
+</Screen>
+<GamePanel>
+<Bg  img = "src/img/back2.jpg" w = "900" h = "700" />
+<ActiveMap>
+
+<ClosedArea blockSize = "35">
+<Rectangle>
+	<Point x ="105" y = "175"/>
+	<Point x ="105" y = "280"/>
+	<Point x ="210" y = "280"/>
+	<Point x ="210" y = "175"/>
+
+</Rectangle>
+<Rectangle>
+	<Point x ="210" y = "70"/>
+	<Point x ="210" y = "280"/>
+	<Point x ="420" y = "280"/>
+	<Point x ="420" y = "70"/>
+
+</Rectangle>
+<Rectangle>
+	<Point x ="140" y = "280"/>
+	<Point x ="140" y = "350"/>
+	<Point x ="420" y = "350"/>
+	<Point x ="420" y = "280"/>
+
+</Rectangle>
+<Rectangle>
+	<Point x ="315" y = "350"/>
+	<Point x ="315" y = "455"/>
+	<Point x ="420" y = "455"/>
+	<Point x ="420" y = "350"/>
+
+</Rectangle>
+<Rectangle>
+	<Point x ="420" y = "420"/>
+	<Point x ="420" y = "455"/>
+	<Point x ="560" y = "455"/>
+	<Point x ="560" y = "420"/>
+
+</Rectangle>
+<Rectangle>
+	<Point x ="420" y = "105"/>
+	<Point x ="420" y = "140"/>
+	<Point x ="700" y = "140"/>
+	<Point x ="700" y = "105"/>
+
+</Rectangle>
+<Rectangle>
+	<Point x ="665" y = "140"/>
+	<Point x ="665" y = "385"/>
+	<Point x ="700" y = "385"/>
+	<Point x ="700" y = "140"/>
+
+</Rectangle>
+<Rectangle>
+	<Point x ="700" y = "350"/>
+	<Point x ="700" y = "385"/>
+	<Point x ="770" y = "385"/>
+	<Point x ="770" y = "350"/>
+
+</Rectangle>
+<Rectangle>
+	<Point x ="770" y = "350"/>
+	<Point x ="770" y = "420"/>
+	<Point x ="840" y = "420"/>
+	<Point x ="840" y = "350"/>
+
+</Rectangle>
+</ClosedArea>
+<Enemy>
+	<Obj img ="src/img/enemy.png" x = "245" y ="70" w = "35" h ="35" type = "UpDown" speed ="3"></Obj>
+	<Obj img ="src/img/enemy.png" x = "315" y ="175" w = "35" h ="35" type = "UpDown" speed ="3"></Obj>
+	<Obj img ="src/img/enemy.png" x = "385" y ="70" w = "35" h ="35" type = "UpDown" speed ="3"></Obj>
+	<Obj img ="src/img/enemy.png" x = "175" y ="315" w = "35" h ="35" type = "UpDown" speed ="3"></Obj>
+	<Obj img ="src/img/enemy.png" x = "245" y ="210" w = "35" h ="35" type = "UpDown" speed ="3"></Obj>
+	<Obj img ="src/img/enemy.png" x = "315" y ="315" w = "35" h ="35" type = "UpDown" speed ="3"></Obj>
+	<Obj img ="src/img/enemy.png" x = "315" y ="385" w = "35" h ="35" type = "LeftRight" speed ="3"></Obj>
+</Enemy>
+<Item>
+	<Obj img ="src/img/star.png" x = "350" y ="385" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/coin.png" x = "525" y ="420" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/item.png" x = "665" y ="350" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/item.png" x = "700" y ="350" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/item.png" x = "735" y ="350" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/item.png" x = "665" y ="315" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/item.png" x = "665" y ="280" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/item.png" x = "665" y ="245" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/item.png" x = "665" y ="210" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/item.png" x = "665" y ="175" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/item.png" x = "665" y ="140" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/item.png" x = "665" y ="105" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/item.png" x = "630" y ="105" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/item.png" x = "595" y ="105" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/item.png" x = "560" y ="105" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/item.png" x = "525" y ="105" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/item.png" x = "490" y ="105" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/item.png" x = "455" y ="105" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/item.png" x = "420" y ="105" w = "35" h ="35"></Obj>
+</Item>
+<Goal img ="src/img/goal.jpg" x = "770" y ="350" w = "70" h ="70"/>
+<Character img ="src/img/rect2.png" x = "140" y ="210" w = "20" h ="20" speed ="5"/>
+<Tile>
+	<Obj img ="src/img/blue.png" x = "210" y ="70" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "245" y ="105" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "280" y ="70" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "315" y ="105" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "350" y ="70" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "385" y ="105" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "350" y ="140" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "280" y ="140" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "210" y ="140" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "245" y ="175" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "315" y ="175" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "385" y ="175" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "350" y ="210" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "280" y ="210" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "210" y ="210" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "665" y ="245" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "315" y ="245" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "385" y ="245" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "245" y ="245" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "140" y ="280" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "175" y ="315" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "245" y ="315" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "210" y ="280" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "315" y ="315" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "280" y ="280" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "385" y ="315" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "350" y ="280" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "350" y ="350" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "385" y ="385" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "315" y ="385" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "350" y ="420" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "420" y ="420" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "490" y ="420" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "525" y ="420" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "455" y ="105" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "525" y ="105" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "595" y ="105" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "665" y ="105" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "665" y ="175" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "665" y ="315" w = "35" h ="35"></Obj>
+	<Obj img ="src/img/blue.png" x = "700" y ="350" w = "35" h ="35"></Obj>
+</Tile>
+</ActiveMap>
+</GamePanel>
+</SpaceGame>

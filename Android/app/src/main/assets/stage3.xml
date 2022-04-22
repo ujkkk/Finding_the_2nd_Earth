@@ -1,0 +1,85 @@
+<SpaceGame>
+    <Screen>
+        <Size w = "1800" h = "1100" />
+    </Screen>
+    <GamePanel>
+        <Bg  img = "src/img/space.jpg" w = "1000" h = "666" />
+        <ActiveMap>
+
+            <ClosedArea blockSize = "80">
+                <Rectangle>
+                    <Point x ="240" y = "240"/>
+                    <Point x ="240" y = "880"/>
+                    <Point x ="480" y = "880"/>
+                    <Point x ="480" y = "240"/>
+
+                </Rectangle>
+                <Rectangle>
+                    <Point x ="480" y = "720"/>
+                    <Point x ="480" y = "880"/>
+                    <Point x ="640" y = "880"/>
+                    <Point x ="640" y = "720"/>
+
+                </Rectangle>
+                <Rectangle>
+                    <Point x ="640" y = "320"/>
+                    <Point x ="640" y = "800"/>
+                    <Point x ="1280" y = "800"/>
+                    <Point x ="1280" y = "320"/>
+
+                </Rectangle>
+                <Rectangle>
+                    <Point x ="1280" y = "240"/>
+                    <Point x ="1280" y = "400"/>
+                    <Point x ="1440" y = "400"/>
+                    <Point x ="1440" y = "240"/>
+
+                </Rectangle>
+                <Rectangle>
+                    <Point x ="1440" y = "240"/>
+                    <Point x ="1440" y = "880"/>
+                    <Point x ="1680" y = "880"/>
+                    <Point x ="1680" y = "240"/>
+
+                </Rectangle>
+            </ClosedArea>
+            <Enemy>
+                <Obj img ="src/img/enemy.png" x = "640" y ="400" w = "80" h ="80" type = "LeftRight" speed ="3"></Obj>
+                <Obj img ="src/img/enemy.png" x = "1200" y ="480" w = "80" h ="80" type = "LeftRight" speed ="3"></Obj>
+                <Obj img ="src/img/enemy.png" x = "640" y ="560" w = "80" h ="80" type = "LeftRight" speed ="3"></Obj>
+                <Obj img ="src/img/enemy.png" x = "1200" y ="640" w = "80" h ="80" type = "LeftRight" speed ="3"></Obj>
+            </Enemy>
+            <Item>
+                <Obj img ="src/img/coin.png" x = "480" y ="720" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/coin.png" x = "560" y ="720" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/coin.png" x = "480" y ="800" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/coin.png" x = "560" y ="800" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/coin.png" x = "1280" y ="240" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/coin.png" x = "1360" y ="240" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/coin.png" x = "1280" y ="320" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/coin.png" x = "1360" y ="320" w = "80" h ="80"></Obj>
+            </Item>
+            <Goal img ="src/img/goal.jpg" x = "1520" y ="720" w = "80" h ="80"/>
+            <Character img ="src/img/mario.png" x = "320" y ="320" w = "80" h ="80" speed ="5"/>
+            <Tile>
+                <Obj img ="src/img/block.png" x = "1440" y ="640" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/block.png" x = "1440" y ="720" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/block.png" x = "1440" y ="800" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/block.png" x = "1520" y ="800" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/block.png" x = "1600" y ="800" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/block.png" x = "1600" y ="720" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/block.png" x = "1600" y ="640" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/block.png" x = "1520" y ="640" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/block.png" x = "240" y ="240" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/block.png" x = "320" y ="240" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/block.png" x = "400" y ="240" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/block.png" x = "400" y ="320" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/block.png" x = "320" y ="320" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/block.png" x = "240" y ="320" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/block.png" x = "240" y ="400" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/block.png" x = "320" y ="400" w = "80" h ="80"></Obj>
+                <Obj img ="src/img/block.png" x = "400" y ="400" w = "80" h ="80"></Obj>
+            </Tile>
+        </ActiveMap>
+    </GamePanel>
+</SpaceGame>
